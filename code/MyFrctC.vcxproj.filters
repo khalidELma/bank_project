@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\cour">
+      <UniqueIdentifier>{e53394e2-478d-4789-be17-0332384acb9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\lip">
+      <UniqueIdentifier>{2e8c947b-d326-4165-9863-c845d372b823}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\..">
+      <UniqueIdentifier>{2e215dc6-9a50-415c-babb-da626cfb9767}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\BankProject">
+      <UniqueIdentifier>{6db759ee-1549-44bb-a2cc-40df55561302}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\BankProject\Client">
+      <UniqueIdentifier>{1fb4c044-f12a-4d8a-98d0-7929c2d207ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\BankProject\User">
+      <UniqueIdentifier>{923c0c97-41b6-4eaa-b582-476ca83c0771}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\BankProject\Currency">
+      <UniqueIdentifier>{3836c606-a8ef-43e6-b8c3-d921d71921cf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="KHAID.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clsScreen.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clsAddNewClientScreen.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="clsCurrency.h">
+      <Filter>Fichiers d%27en-tête\cour</Filter>
+    </ClInclude>
+    <ClInclude Include="clsDate.h">
+      <Filter>Fichiers d%27en-tête\lip</Filter>
+    </ClInclude>
+    <ClInclude Include="ClsCalculator.h">
+      <Filter>Fichiers d%27en-tête\lip</Filter>
+    </ClInclude>
+    <ClInclude Include="clsListUser.h">
+      <Filter>Fichiers d%27en-tête\cour</Filter>
+    </ClInclude>
+    <ClInclude Include="clsInputValidation.h">
+      <Filter>Fichiers d%27en-tête\lip</Filter>
+    </ClInclude>
+    <ClInclude Include="clsScreen.h">
+      <Filter>Fichiers d%27en-tête\BankProject</Filter>
+    </ClInclude>
+    <ClInclude Include="clsString.h">
+      <Filter>Fichiers d%27en-tête\lip</Filter>
+    </ClInclude>
+    <ClInclude Include="clsUser.h">
+      <Filter>Fichiers d%27en-tête\cour</Filter>
+    </ClInclude>
+    <ClInclude Include="clsAddNewClientScreen.h">
+      <Filter>Fichiers d%27en-tête\BankProject\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="clsBinkClien.h">
+      <Filter>Fichiers d%27en-tête\cour</Filter>
+    </ClInclude>
+    <ClInclude Include="clsClientListScreen.h">
+      <Filter>Fichiers d%27en-tête\BankProject\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="clsFindScreen.h">
+      <Filter>Fichiers d%27en-tête\BankProject\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="clsMainScrren.h">
+      <Filter>Fichiers d%27en-tête\BankProject\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="clsTotalBalanceScreen.h">
+      <Filter>Fichiers d%27en-tête\BankProject\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="clsTransactionsScreen.h">
+      <Filter>Fichiers d%27en-tête\BankProject\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="clsTransferScreen.h">
+      <Filter>Fichiers d%27en-tête\BankProject\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="clsTransfersLogScreen.h">
+      <Filter>Fichiers d%27en-tête\BankProject\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="clsUpdateDataClientScreen.h">
+      <Filter>Fichiers d%27en-tête\BankProject\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="clsWithdrawScreen.h">
+      <Filter>Fichiers d%27en-tête\BankProject\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="clsAddNewUser.h">
+      <Filter>Fichiers d%27en-tête\BankProject\User</Filter>
+    </ClInclude>
+    <ClInclude Include="clsDeleteScreen.h">
+      <Filter>Fichiers d%27en-tête\BankProject\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="clsDeleteUserScreen.h">
+      <Filter>Fichiers d%27en-tête\BankProject\User</Filter>
+    </ClInclude>
+    <ClInclude Include="clsFindUserScreen.h">
+      <Filter>Fichiers d%27en-tête\BankProject\User</Filter>
+    </ClInclude>
+    <ClInclude Include="clsManageUsersScreen.h">
+      <Filter>Fichiers d%27en-tête\BankProject\User</Filter>
+    </ClInclude>
+    <ClInclude Include="clsUpdatUserScreen.h">
+      <Filter>Fichiers d%27en-tête\BankProject\User</Filter>
+    </ClInclude>
+    <ClInclude Include="clsCurrenciesListScreen.h">
+      <Filter>Fichiers d%27en-tête\BankProject\Currency</Filter>
+    </ClInclude>
+    <ClInclude Include="clsCurrencyCalculatorScreen.h">
+      <Filter>Fichiers d%27en-tête\BankProject\Currency</Filter>
+    </ClInclude>
+    <ClInclude Include="clsDepositScreen.h">
+      <Filter>Fichiers d%27en-tête\BankProject\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="clsFindCurrancey.h">
+      <Filter>Fichiers d%27en-tête\BankProject\Currency</Filter>
+    </ClInclude>
+    <ClInclude Include="clsMainCurrancyScreen.h">
+      <Filter>Fichiers d%27en-tête\BankProject\Currency</Filter>
+    </ClInclude>
+    <ClInclude Include="clsUpdateRate.h">
+      <Filter>Fichiers d%27en-tête\BankProject\Currency</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.h">
+      <Filter>Fichiers d%27en-tête\BankProject</Filter>
+    </ClInclude>
+    <ClInclude Include="clsLoginRegisterScreen.h">
+      <Filter>Fichiers d%27en-tête\BankProject\User</Filter>
+    </ClInclude>
+    <ClInclude Include="clsDeveloper.h">
+      <Filter>Fichiers d%27en-tête\..</Filter>
+    </ClInclude>
+    <ClInclude Include="clsEmployee.h">
+      <Filter>Fichiers d%27en-tête\..</Filter>
+    </ClInclude>
+    <ClInclude Include="clsLoginScreen.h">
+      <Filter>Fichiers d%27en-tête\BankProject</Filter>
+    </ClInclude>
+    <ClInclude Include="clsperson.h">
+      <Filter>Fichiers d%27en-tête\..</Filter>
+    </ClInclude>
+    <ClInclude Include="clsUtili.h">
+      <Filter>Fichiers d%27en-tête\lip</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
